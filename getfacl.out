@@ -1,0 +1,14 @@
+# file: /data/mephi-2026
+# owner: 0
+# group: 5500
+# flags: -s-
+user::rwx
+group::rwx
+group:4444:r-x
+mask::rwx
+other::---
+default:user::rwx
+default:group::rwx
+default:group:4444:r-x
+default:mask::rwx
+default:other::---
